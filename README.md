@@ -6,9 +6,11 @@ Este proyecto se centra en examinar y comprender las tendencias, patrones y cara
 
 ## Conclusiones
 Comenzamos con el top de artistas con mas canciones presentes en los streams de spotify
+
 ![top_artist](https://github.com/IvesCaceres/spotify-project/blob/main/Files/top%20artist.jpg?raw=true)
 
 Tambien las canciones mas escuchadas en la siguiente imagen:
+
 ![top_tracks](https://github.com/IvesCaceres/spotify-project/blob/main/Files/top%20songs.jpg?raw=true)
 
 Posteriormente, se llevó a cabo un análisis de los diversos aspectos relacionados con la musicalidad de las canciones más escuchadas que se encontraban en la base de datos. Estos aspectos incluyen el tempo (BPM), la capacidad de baile (danceability), la energía, la positividad emocional (valence), el nivel de acústica, y la presencia de discurso (speechiness).
