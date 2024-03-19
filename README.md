@@ -25,8 +25,6 @@ Intrumentalness, este valor representa la cantidad de voces en la canción, en e
 
 Liveness, este valor describe la probabilidad de que la canción haya sido grabada con una audiencia en vivo, un valor superior a 0,8 proporciona una gran probabilidad de que la pista esté en vivo, lo cual no es el caso, por lo tanto, podemos concluir que hay mayor cantidad de insidencias en musica grabada en estudio" 
 
-=======
->>>>>>> 2f9eebd3c1d6e45e6aa17f926d9f987ba53440e1
 El último parámetro, speechiness, indica la presencia de palabras habladas en una pista. Si el nivel de habla supera 0,66, es probable que la canción esté compuesta principalmente por palabras habladas. Una puntuación entre 0,33 y 0,66 sugiere una combinación de música y letra, mientras que una puntuación inferior a 0,33 indica ausencia de discurso. En este contexto, se observa una inclinación hacia canciones con una baja presencia de palabras habladas, lo que refleja una preferencia por la música instrumental.
 
 #### BPM
