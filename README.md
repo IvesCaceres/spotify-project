@@ -7,6 +7,7 @@ Este proyecto se centra en examinar y comprender las tendencias, patrones y cara
 ## Conclusiones
 Comenzamos con el top de artistas con mas canciones presentes en los streams de spotify
 ![top_artist](https://github.com/IvesCaceres/spotify-project/blob/main/Files/top%20artist.jpg?raw=true)
+
 Tambien las canciones mas escuchadas en la siguiente imagen:
 ![top_tracks](https://github.com/IvesCaceres/spotify-project/blob/main/Files/top%20songs.jpg?raw=true)
 
