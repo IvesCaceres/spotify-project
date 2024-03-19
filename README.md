@@ -20,7 +20,6 @@ En los gráficos de caja y bigote, se destacan elementos clave como la mediana, 
 
 El análisis de la positividad emocional revela una distribución relativamente equilibrada, con un promedio centralizado en el 50%. Además, se evidencia una clara preferencia por las canciones acústicas en la muestra analizada.
 
-<<<<<<< HEAD
 Intrumentalness, este valor representa la cantidad de voces en la canción, en este caso la mayor cantidad de insidencias fueron cercanas del 1.0, es decir, más instrumental son las canciónes.
 
 Liveness, este valor describe la probabilidad de que la canción haya sido grabada con una audiencia en vivo, un valor superior a 0,8 proporciona una gran probabilidad de que la pista esté en vivo, lo cual no es el caso, por lo tanto, podemos concluir que hay mayor cantidad de insidencias en musica grabada en estudio" 
@@ -31,24 +30,26 @@ El último parámetro, speechiness, indica la presencia de palabras habladas en 
 Se creó un gráfico de BPM con el objetivo de buscar alguna clasificación, dado que la base de datos no incluía un campo que indicara el género musical, como rock, pop, hip hop, etc. Tras realizar la agrupación, se obtuvo un conjunto de datos con una longitud de 120 registros. Dado que esto representaba una parte significativa de la muestra, compuesta por solo 816 datos, se decidió no considerarla. No obstante, se optó por graficar los 20 BPM con mayor tendencia para su revisión.
 ![bpm](https://github.com/IvesCaceres/spotify-project/blob/main/Files/plot%20bpm%20x%20streams.png?raw=true)   
 ![bpm](https://github.com/IvesCaceres/spotify-project/blob/main/Files/pie%20bpm.png?raw=true)   
+
 #### Key Mode
 Al igual que se intentó agrupar las canciones por su ritmo cardíaco (BPM), se llevó a cabo una agrupación basada en un nuevo campo creado, obtenido a partir de la concatenación entre el campo 'Key' y 'Mode'. De este modo, se logró determinar la tonalidad en la que están escritas las canciones. En este caso, la agrupación resultó en un total de solo 22 combinaciones. Aunque esta clasificación no permite diferenciar entre los diversos géneros musicales, proporciona insights valiosos al evidenciar correlaciones con otros datos que serán explorados más adelante.
 
 A continuación se presenta el gráfico que ilustra la distribución de streams según las diferentes tonalidades musicales. Destaca que la tonalidad predominante es C# Mayor (Do sostenido mayor), que registra la mayor cantidad de streams
 ![keymode](https://github.com/IvesCaceres/spotify-project/blob/main/Files/streams%20x%20keymode.png?raw=true)
+
 #### Heatmap correlaciones distintas tonalidades
 
 Se realizaron Heatmap de correlación agrupando la información según las tonalidades o campo "key mode" más representativas, con el objetivo de examinar si existían correlaciones sugestivas de regresión. Se observó que en la tonalidad de C# Major, hay una correlación entre los beats por minuto (bpm) y la cantidad de reproducciones (streams). En D Major, se identificó una correlación entre la valencia y la cantidad de reproducciones. En G Major, se encontró una relación entre los bpm y las reproducciones, así como entre la "speechiness" y las reproducciones. Además, en G Major se detectó una correlación entre la "danceability" y las reproducciones, así como entre la "acousticness" y las reproducciones. En contraste, en C# Major y B Minor no se encontraron correlaciones entre las reproducciones y los diferentes campos analizados.
 Seria interesante realizar este mismo análisis utilizando un conjunto de datos más amplio o incorporando la clasificación por género musical. De esta manera, podríamos identificar correlaciones más significativas o incluso descartar la noción de su existencia.
 ![heatmap_keymode](https://github.com/IvesCaceres/spotify-project/blob/main/Files/heatmap%20por%20key.png?raw=true)
+
 #### Heatmap correlacion completo
 Se creó un mapa de calor de correlación utilizando todos los datos musicales para investigar la presencia de correlaciones. Sin embargo, no se identificaron resultados significativos que sugirieran una relación entre la cantidad de reproducciones y otros aspectos relacionados con las características musicales
 ![Heatmap](https://github.com/IvesCaceres/spotify-project/blob/main/Files/heatmap%20all.png?raw=true)
+
 #### Pairplot completo
 Para finalizar se realizó un pairplot para evaluar nuevamente las caracteristicas musicales.
 ![Pairplot](https://github.com/IvesCaceres/spotify-project/blob/main/Files/pairplot.png?raw=true) 
-<<<<<<< HEAD
+
 Se logra identificar una relacion lineal entre algunos datos como acousticness y energy, tambien en valence y energy, y en menor medida entre valence y danceability. En el caso de los streams no se observan relaciones lineares.
-=======
-Se logra identificar una relacion lineal entre 
->>>>>>> 2f9eebd3c1d6e45e6aa17f926d9f987ba53440e1
+
