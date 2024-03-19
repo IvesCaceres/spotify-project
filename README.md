@@ -44,11 +44,13 @@ Seria interesante realizar este mismo análisis utilizando un conjunto de datos 
 ![heatmap_keymode](https://github.com/IvesCaceres/spotify-project/blob/main/Files/heatmap%20por%20key.png?raw=true)
 
 #### Heatmap correlacion completo
-Se creó un mapa de calor de correlación utilizando todos los datos musicales para investigar la presencia de correlaciones. Sin embargo, no se identificaron resultados significativos que sugirieran una relación entre la cantidad de reproducciones y otros aspectos relacionados con las características musicales
+Se creó un mapa de calor de correlación utilizando todos los datos musicales para investigar la presencia de correlaciones. Sin embargo, no se identificaron resultados significativos que sugirieran una relación entre la cantidad de reproducciones y otros aspectos relacionados con las características musicales.
+
 ![Heatmap](https://github.com/IvesCaceres/spotify-project/blob/main/Files/heatmap%20all.png?raw=true)
 
 #### Pairplot completo
 Para finalizar se realizó un pairplot para evaluar nuevamente las caracteristicas musicales.
+
 ![Pairplot](https://github.com/IvesCaceres/spotify-project/blob/main/Files/pairplot.png?raw=true) 
 
 Se logra identificar una relacion lineal entre algunos datos como acousticness y energy, tambien en valence y energy, y en menor medida entre valence y danceability. En el caso de los streams no se observan relaciones lineares.
